@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Tables</title>
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+
+    <script>
+
+        $("document").ready(function(){
+
+            $("th").css({
+                "background-color": "purple", "color": "white"
+            });
+
+            //Select even <li> elements and make them red
+            $("tr:even").css({"background-color" : "grey"});
+            //Select odd <li> elements and make them blue
+            $("tr:odd").css({"background-color" : "teal"});
+
+        });
+    </script>
+</head>
+<body>
+
+
+<table>
+    <tr><th>Foods</th><th>Taste Profile</th></tr>
+    <tr><td>Lemon</td><td>Sour</td></tr>
+    <tr><td>Chocolate</td><td>Sweet</td></tr>
+    <tr><td>Steak</td><td>Savory</td></tr>
+</table>
+
+
+</body>
+</html>

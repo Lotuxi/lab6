@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Table</title>
+
+</head>
+<body>
+
+
+
+<table>
+    <tr id="tr1"><th>Foods</th><th>Taste Profile</th></tr>
+    <tr><td>Lemon</td><td>Sour</td></tr>
+    <tr><td>Chocolate</td><td>Sweet</td></tr>
+    <tr><td>Steak</td><td>Savory</td></tr>
+</table>
+
+<script>
+    function tableStyle() {
+            var tableHeader = document.getElementsByTagName('th');
+            var tableRows = document.getElementsByTagName('td');
+            tableHeader.style.backgroundColor = "purple";
+            tableRows.style.backgroundColor = "grey";
+
+        }
+//
+//    document.getElementById("tr1").style.backgroundColor = "purple";
+//    document.getAnonymousElementByAttribute('td').style.backgroundColor = "gray";
+
+
+
+</script>
+
+</body>
+</html>
